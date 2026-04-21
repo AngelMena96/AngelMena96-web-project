@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/WoodPanel.jpg");
+}
+
+nav {
+    background-color: #3D2020;
+    height: 40px;
+}
+
+nav li {
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #D4DFC7;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+
+h2{
+    background-color:#D4DFC7;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+table {
+    background-color: #3D2020;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+.toolsBlock{
+    width: 90%;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    position:relative;
+}
+
+.tools {
+    height: 300px;
+    width: 30%;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a:link {
+  color: lightskyblue;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(75, 170, 31);
+}
