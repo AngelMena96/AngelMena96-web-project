@@ -4,37 +4,34 @@ body {
 
 nav {
     background-color: #3D2020;
-    height: 40px;
+    height: 2em;
 }
 
 nav li {
-    line-height: 40px;
+    line-height: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     background-color: #D4DFC7;
-    height: 60px;
+    height: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
     text-align: center;
-    line-height: 60px;
+    line-height: 2em;
 }
 
 h2{
     background-color:#D4DFC7;
-    height: 40px;
+    height: 2em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
+    line-height: 2em;
 }
 
 p {
     background-color: #3D2020;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
     font-weight: bold;
     color: white;
     padding: 5px;
@@ -55,21 +52,7 @@ th, td {
     text-align: left;
 }
 
-.toolsBlock{
-    width: 90%;
-    height: 100px;
-    display: inline-block;
-    padding: 10px;
-    position:relative;
-}
-
-.tools {
-    height: 300px;
-    width: 30%;
-}
-
 a {
-    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -91,3 +74,113 @@ a:hover {
     font-size: 25px;
     text-decoration: underline;
 }
+
+#navBar {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+#projectSubmission {
+    background-color: #3D2020;
+    border: 3px solid black;
+    padding: 5px;
+    margin-top: 10px;
+} 
+
+label, input {
+   display: block;  
+   margin-left: 10px;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
+
+label {
+    margin-top: 10px;
+    color: white;
+}
+
+input {
+    margin-top: 5px;
+    width: 50%;
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 320px) {
+    #projectSubmission {
+    max-width: 80%;
+    } 
+
+    .toolsBlock{
+        width: 90%;
+        padding: 10px;
+        position:relative;
+    }
+
+    .tools {
+        height: 15em;
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    table {
+        font-size: 14px;
+    }
+    a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    #projectSubmission {
+    min-width: 10%;
+    max-width: 25%;
+    } 
+
+    .toolsBlock{
+        width: 90%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px;
+        position:relative;
+    }
+
+    .tools {
+        height: 300px;
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+    table {
+        font-size: 20px;
+    }
+    a{
+        font-size: 20px;
+    }
+} 
