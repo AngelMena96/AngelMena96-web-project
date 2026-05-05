@@ -148,7 +148,7 @@ button {
     }
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 961px) {
     #projectSubmission {
     min-width: 10%;
     max-width: 25%;
